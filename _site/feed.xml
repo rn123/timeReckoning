@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-03T09:24:24-10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Calendrical-Tools</title><subtitle>Calendrical tools for reckoning time.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/02/03/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-02-03T09:04:52-10:00</published><updated>2020-02-03T09:04:52-10:00</updated><id>http://localhost:4000/jekyll/update/2020/02/03/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/02/03/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Drawing astrolabes the plate grid</title><link href="http://localhost:4000/2020/01/14/Drawing-Astrolabes-The-Plate-Grid.html" rel="alternate" type="text/html" title="Drawing astrolabes  the plate grid" /><published>2020-01-14T00:00:00-10:00</published><updated>2020-01-14T00:00:00-10:00</updated><id>http://localhost:4000/2020/01/14/Drawing%20Astrolabes-%20The%20Plate%20Grid</id><content type="html" xml:base="http://localhost:4000/2020/01/14/Drawing-Astrolabes-The-Plate-Grid.html">&lt;h2 id=&quot;drawing-astrolabes-the-plate-grid&quot;&gt;Drawing Astrolabes: The Plate Grid&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/astrolabe_generated_01152020.png&quot; alt=&quot;First version of generated astrolabe image&quot; width=&quot;25%&quot; align=&quot;right&quot; style=&quot;padding:5px;&quot; /&gt;
+The plate grid of an astrolabe is the stereographic projection of the celestial sphere through the south celestial pole onto the plane of the equator. Quoting Morrison:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The interior of the plate can be thought of as a special kind of graph paper for finding the location of celestial objects in the sky at your location. The main difference between normal graph paper and the graph paper on the plate is the lines on graph paper are normally straight while the astrolabe lines are curve. All of the curves on the astrolabe plate are drawn as arcs of circles.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Continuing, here is Morrisons basic description:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The larger circles centered on the plate represent the Earth’s tropics. The largest circle, which defines the outside of the plate, is the Tropic of Capricorn, which is the farthest south the sun ever reaches. The middle circle is the equator and the smaller circle is the sun’s northern limit, the Tropic of Cancer. The circles defining the tropic are the same for all latitudes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/sun_in_the_church.jpg&quot; alt=&quot;The Sun in the Churce&quot; width=&quot;25%&quot; align=&quot;left&quot; style=&quot;padding:5px;&quot; /&gt;
+Not mentioned is the dependency of the plate on the obliquity of the ecliptic – the angle that the plane of the Sun’s path makes with the Earth’s equator. Modern astronomy starts with the identification of the time dependence of the obliquity of the ecliptic. Drawing historically accurate diagrams needs to take into account this time dependency. The story of this discovery and how the obliquity was measured five hundred years ago appears in Heilbron’s book, “The Sun in the Church.”&lt;/p&gt;
+
+&lt;p&gt;Morrison continues:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The straight lines drawn as diameters of the largest circle show direction. The vertical diameter goes north and south through your location, representing your &lt;strong&gt;meridian.&lt;/strong&gt; South is at the top and east to the left. The horizontal diameter connects east and west and is the projection of the great circle perpendicular to the meridian. It is normally called the &lt;strong&gt;right horizon&lt;/strong&gt;, the horizon at the equator. It is perhaps easiest to visualize the plate as lying flat on a table with the top pointing south. A star chart is held overhead. You look down on an astrolabe, like a compass.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Morrison’s book has details about the layout of many tools based on stereographic projections. In particular, he does have a chapter on generating star finders. Continuing with the description:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The plate is used to find the positions of celestial objects in the sky as seen by an observer at a specific location. The interior of the plate is the stereographic projection of the tropics and the local horizontal coordinate system. The arcs on the plate represent positons in the sky. You can find anything in the sky if you know its angle above the horizon and the direction to look. The angle of something in the sky above its horizon is its &lt;strong&gt;altitude&lt;/strong&gt; and its direction is its &lt;strong&gt;azimuth.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The easy part of drawing the plate of an astrolabe is drawing the tropics and the equator:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/plate_grid_equation1.png&quot; alt=&quot;equation 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These circles depend only on the obliquity of the ecliptic.&lt;/p&gt;
+
+&lt;p&gt;The circles of equal altitude (almucantars) are given by the following formulas:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/plate_grid_equation2.png&quot; alt=&quot;equation 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In particular, the radius and center for the horizon arc is obtained for an altitude of zero.&lt;/p&gt;
+
+&lt;p&gt;The arcs of equal azimuth are given by:
+&lt;img src=&quot;/images/plate_grid_equation3.png&quot; alt=&quot;equation 3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/screenshot_coding_astrolabe.png&quot; alt=&quot;coding screenshot&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Drawing Astrolabes: The Plate Grid The plate grid of an astrolabe is the stereographic projection of the celestial sphere through the south celestial pole onto the plane of the equator. Quoting Morrison:</summary></entry><entry><title type="html">Concept</title><link href="http://localhost:4000/2020/01/13/Concept.html" rel="alternate" type="text/html" title="Concept" /><published>2020-01-13T00:00:00-10:00</published><updated>2020-01-13T00:00:00-10:00</updated><id>http://localhost:4000/2020/01/13/Concept</id><content type="html" xml:base="http://localhost:4000/2020/01/13/Concept.html">&lt;p&gt;&lt;img src=&quot;/images/card_lunar_new_year_rat.svg&quot; alt=&quot;idea card&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;concept&quot;&gt;Concept&lt;/h1&gt;
+
+&lt;p&gt;Organizing and visualizing the counts of days, moons, and years is fundamental. Over the centuries, many devices have been invented for this purpose, resulting in the rich calendrical and astronomical traditions of world history. Calendrical-Tools builds calendars, diagrams, and timelines to help explore these traditions and their first principles as well as to produce useful devices for managing time from a historically accurate point of view.&lt;/p&gt;
+
+&lt;p&gt;Inspired by David Seah’s &lt;a href=&quot;https://davidseah.com/node/compact-calendar/&quot;&gt;Compact Calendar&lt;/a&gt; project that produces a one-page time-management tool, &lt;code class=&quot;highlighter-rouge&quot;&gt;candybar.py&lt;/code&gt; is a set of code that computes “candybar calendars” for various calendrical traditions. The candybar view of time organizes day counts into ISO weeks and stacks the weeks up to fill in a calendar year. David Seah introduced the idea of calling these candybar calendars: 
+&lt;img src=&quot;/images/compact_calendar.png&quot; alt=&quot;Compact Calendar&quot; width=&quot;30%&quot; align=&quot;right&quot; style=&quot;padding:5px;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Compact Calendar presents days as a continuous candy bar of time. Because the weeks are presented as a stack of available time, it’s easy to block out days naturally as you think. There’s a lot of free space available on the right-side of the sheet for note taking.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Amature astronomy and computational inspirations are from the fantasic books by Reingold &amp;amp; Dershowitz, “Calendrical Computations” and James Morrison, “The Astrolabe.”&lt;/p&gt;
+
+&lt;p&gt;Close study of Reingold &amp;amp; Dershowitz (mainly from the 3rd edition, although my copy of the 4th edition is on it’s way from Amazon) and the &lt;a href=&quot;https://github.com/espinielli/pycalcal&quot;&gt;python implementation&lt;/a&gt; by Enrico Spinielli, as well as cited references, has been a factor in my amature astronomy passion for a long time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/pocket_sundial.png&quot; alt=&quot;THE KALA POCKET SUNDIAL&quot; width=&quot;25%&quot; align=&quot;right&quot; style=&quot;padding:5px;&quot; /&gt;
+Likewise, the study of computing and drawing astrolabes inspired by James Morrison, has been a passion. In the 90’s I bought his laminated cardboard astrolabes (and later his book) that have fed a passion for decades. By the way, if working versions of ancient astrolabes is your thing, you should also take a look at &lt;a href=&quot;https://www.pocket-sundial.com/products/kala-sundial&quot;&gt;Kala’s pocket sundial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The concept of the project is to develop tools on top of Spinielli’s pycalcal. Pycalcal is a python version of Reingold &amp;amp; Dershowitz’s lisp implementation (calendrica 3.0) software.  Based on Reingold &amp;amp; Dershowitz, the Calendrical-Tools can compute candybar calendars that are accurate over the historical period and in the many calendrical traditions. The visualizations of the sky borrowed from the geometric construction of astrolabes adds to the tabular forms of calendars.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/screenshot.png&quot; alt=&quot;command line screenshot of candybar.py&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
