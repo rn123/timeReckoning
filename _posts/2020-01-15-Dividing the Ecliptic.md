@@ -1,4 +1,8 @@
-# Drawing Astrolabes: Dividing the Ecliptic
+---
+layout: post
+title:  "Drawing Astrolabes: Dividing the Ecliptic"
+author: Ray
+---
 
 <img src="/assets/images/ecliptic_division.svg" alt="Ecliptic Division Diagram" width="60%" align="right" style="padding:5px;"/>
 

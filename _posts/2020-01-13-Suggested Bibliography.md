@@ -1,4 +1,8 @@
-# Suggested Bibliography
+---
+layout: post
+title:  "Suggested Bibliography"
+author: Ray
+---
 
 - Reingold, Edward M. Calendrical Calculations: The Ultimate Edition. 4 edition. Cambridge ; New York: Cambridge University Press, 2018.
 <img src="/assets/images/janus_personal_astrolabes.png" alt="In memory, fantastic work by James Morrison." width="25%" align="right"/>

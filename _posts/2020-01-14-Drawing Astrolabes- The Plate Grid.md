@@ -1,4 +1,9 @@
-## Drawing Astrolabes: The Plate Grid
+---
+layout: post
+title:  "Drawing Astrolabes: The Plate Grid"
+author: Ray
+---
+
 <img src="/assets/images/astrolabe_generated_01152020.png" alt="First version of generated astrolabe image" width="25%" align="right" style="padding:5px;"/>
 The plate grid of an astrolabe is the stereographic projection of the celestial sphere through the south celestial pole onto the plane of the equator. Quoting Morrison:
 

@@ -1,4 +1,8 @@
-# The International Organization for Standardization (ISO) Calendar
+---
+layout: post
+title:  "The International Organization for Standardization (ISO) Calendar"
+author: Ray
+---
 
 The Banker's Almanac and Register published calendars in the late 1800s formatted as stacks of weeks similar to Seah's candybar calendars and the format used by Reingold & Dershowitz. This format is illustrated in the chapter on the ISO Calendar.  In their book, Reingold & Dershowitz point out that their only reference is for the ISO Standard [ISO 8601:2000(E)](http://www.pvv.org/~nsaa/8601v2000.pdf).
 <img src="/assets/images/bankers_almanac_1883.png" alt="Banker's calendar, 1883." width="40%" align="right" style="padding:5px;"/>
