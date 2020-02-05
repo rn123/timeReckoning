@@ -5,7 +5,7 @@ author: Ray
 ---
 
 The Banker's Almanac and Register published calendars in the late 1800s formatted as stacks of weeks similar to Seah's candybar calendars and the format used by Reingold & Dershowitz. This format is illustrated in the chapter on the ISO Calendar.  In their book, Reingold & Dershowitz point out that their only reference is for the ISO Standard [ISO 8601:2000(E)](http://www.pvv.org/~nsaa/8601v2000.pdf).
-<img src="/assets/images/bankers_almanac_1883.png" alt="Banker's calendar, 1883." width="40%" align="right" style="padding:5px;"/>
+<img src="{{ "/assets/images/bankers_almanac_1883.png" | relative_url }}" alt="Banker's calendar, 1883." width="40%" align="right" style="padding:5px;"/>
 
 > A calendar week is identified within a calendar year by the calendar week number. This is its ordinal position within the year, applying the rule that the first calendar week of a year is the one that includes the first Thursday of that year and that the last calendar week of a calendar year is the week immediately preceding the first calendar week of the next calendar year.
 

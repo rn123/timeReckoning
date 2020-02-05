@@ -4,7 +4,7 @@ title:  "Drawing Astrolabes: Dividing the Ecliptic"
 author: Ray
 ---
 
-<img src="/assets/images/ecliptic_division.svg" alt="Ecliptic Division Diagram" width="60%" align="right" style="padding:5px;"/>
+<img src="{{ "/assets/images/ecliptic_division.svg" | relative_url }}" alt="Ecliptic Division Diagram" width="60%" align="right" style="padding:5px;"/>
 
 Stereographic projections of circles are circles.  The ecliptic is a circle that runs between the extremes of the tropics of Cancer and Capricorn. The projection of the ecliptic has a radius that is the average of the tropic radii. Its center is half their difference.
 
@@ -14,4 +14,4 @@ Stereographic projections of circles are circles.  The ecliptic is a circle that
 3. Draw a line from each equator division to the ecliptic pole. The corresponding longitude point on the ecliptic is where this line intersects the ecliptic circle.
 4. A tic mark on the ecliptic is drawn toward the center of the instrument.
 
-<img src="/assets/images/astrolabe_generated_01312020.svg" alt="version with correct prime vertical" style="padding:5px;"/>
+<img src="{{ "/assets/images/astrolabe_generated_01312020.svg" | relative_url }}" alt="version with correct prime vertical" style="padding:5px;"/>
