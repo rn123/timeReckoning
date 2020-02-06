@@ -5,19 +5,25 @@
     <title>{{ page.title }}</title>
     <link href="{{ "/assets/css/style.css" | absolute_url }}" rel="stylesheet">
   </head>
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   <body>
-    {% include navigation.html %}
-    {{ content }}
-  </body>
-  {% if jekyll.environment == "production" %}
-	 <!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156772806-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+  <header>
+    <h1 class="header">Calendrical Tools</h1>
+    <p class="header">Calendrical tools for reckoning time.</p>
 
-	  gtag('config', 'UA-156772806-1');
-	</script>
-  {% endif %}
+    <ul>
+      
+        <li class="download"><a class="buttons" href="https://github.com/pages-themes/dinky/zipball/master">Download ZIP</a></li>
+        <li class="download"><a class="buttons" href="https://github.com/pages-themes/dinky/tarball/master">Download TAR</a></li>
+      
+      <li><a class="buttons github" href="https://github.com/rn123/Calendrical-Tools">View On GitHub</a></li>
+    </ul>
+
+    
+      <p class="header">This project is maintained by <a class="header name" href="https://github.com/rn123/">rn123</a></p>
+  </header>
+  <section>
+    {{ content }}
+  </section>
+  </body>
 </html>
